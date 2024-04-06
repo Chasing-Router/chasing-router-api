@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Chasing.Router.Domain\Chasing.Router.Domain.csproj" />
+    <ProjectReference Include="..\Chasing.Router.Data\Chasing.Router.Data.csproj" />
   </ItemGroup>
 
 </Project>
