@@ -1,8 +1,7 @@
 using Chasing.Router.Domain.Catalog;
 using Microsoft.EntityFrameworkCore;
+using Chasing.Router.Data;
 
-namespace Chasing.Router.Data
-{
     public static class DbIntitializer {
         public static void Initialize(ModelBuilder builder) {
             builder.Entity<Item>().HasData(
@@ -17,4 +16,3 @@ namespace Chasing.Router.Data
             );
         }
     }
-}
